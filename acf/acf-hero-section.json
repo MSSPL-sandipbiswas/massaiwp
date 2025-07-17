@@ -1,0 +1,102 @@
+[
+    {
+        "key": "group_hero_section",
+        "title": "Hero Section",
+        "fields": [
+            {
+                "key": "field_hero_content_group",
+                "label": "Hero Content",
+                "name": "hero_content",
+                "type": "group",
+                "sub_fields": [
+                    {
+                        "key": "field_hero_title",
+                        "label": "Hero Title",
+                        "name": "hero_title",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_hero_title_highlight",
+                        "label": "Hero Title Highlight",
+                        "name": "hero_title_highlight",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_hero_subtitle",
+                        "label": "Hero Subtitle",
+                        "name": "hero_subtitle",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_hero_market",
+                        "label": "Hero Market",
+                        "name": "hero_market",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_hero_paragraph",
+                        "label": "Hero Paragraph",
+                        "name": "hero_paragraph",
+                        "type": "textarea"
+                    },
+                    {
+                        "key": "field_hero_button_text",
+                        "label": "Hero Button Text",
+                        "name": "hero_button_text",
+                        "type": "text"
+                    },
+                    {
+                        "key": "field_hero_button_url",
+                        "label": "Hero Button URL",
+                        "name": "hero_button_url",
+                        "type": "url"
+                    }
+                ]
+            },
+            {
+                "key": "field_hero_images",
+                "label": "Hero Images",
+                "name": "hero_images",
+                "type": "repeater",
+                "sub_fields": [
+                    {
+                        "key": "field_hero_image_image",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all"
+                    },
+                    {
+                        "key": "field_hero_image_custom_class",
+                        "label": "Custom Class",
+                        "name": "custom_class",
+                        "type": "text"
+                    }
+                ],
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "Add Image"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-home.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+] 
