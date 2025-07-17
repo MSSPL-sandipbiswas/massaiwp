@@ -65,7 +65,7 @@ Sandip
 				printf(
 					/* translators: %s: WordPress. */
 					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
-					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
+					'<a href="' . esc_url( __( 'https://massoftind.com/', 'twentytwentyone' ) ) . '">msspl</a>'
 				);
 				?>
 			</div><!-- .powered-by -->
